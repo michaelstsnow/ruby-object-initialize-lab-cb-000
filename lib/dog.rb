@@ -3,9 +3,9 @@ class Dog
     if dog_breed
       @breed=dog_breed
     else
-      @breed="Mutt"
+      @breed=Mutt
     end
-    
+
   end
 
 end
