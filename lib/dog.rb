@@ -1,5 +1,5 @@
 class Dog
-  def initialize(dog_name,dog_breed)
+  def initialize(dog_name,dog_breed="Mutt")
     if dog_breed
       @breed=dog_breed
     else
